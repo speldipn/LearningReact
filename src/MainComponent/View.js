@@ -1,11 +1,11 @@
 import React from 'react';
 
 const View = props => {
-  console.log('View loaded.');
+  const {name} = props;
   return (
     <div>
       <h1>MainComponent</h1>
-      <h2>View</h2>
+      <h2>name: {name}</h2>
     </div>
   );
 };

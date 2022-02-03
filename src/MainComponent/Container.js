@@ -3,8 +3,8 @@ import View from './View.js';
 
 class Container extends React.Component {
   render() {
-    console.log('Container loaded.');
-    return <View />;
+    const {name} = this.props;
+    return <View name={name} />;
   }
 }
 

@@ -2,8 +2,7 @@ import React from 'react';
 import Container from './Container';
 
 const MainComponent = props => {
-  console.log('index loaded.');
-  return <Container />;
+  return <Container name="Neo" />;
 };
 
 export default MainComponent;
